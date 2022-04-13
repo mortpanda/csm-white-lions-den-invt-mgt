@@ -1,4 +1,4 @@
-# oie-white-lions-den-invt-mgt
+# csm-white-lions-den-invt-mgt
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
@@ -40,23 +40,21 @@ typescript                      4.0.3
 
 ```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The following directory contains Google Map API key
+```
+/app/shared/gmaps$
 
-## Code scaffolding
+filename as gmap-config.ts
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+content below,
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+export interface GmapConfig {
+  // gmapKey:string;
+}
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+export const gmapKey = '[Your Gmaps API key]';
+```
 
 ## Screenshots
 <img src="/Capture.PNG" alt="drawing" width="600"/>

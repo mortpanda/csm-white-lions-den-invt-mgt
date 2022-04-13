@@ -15,7 +15,7 @@ export class LandingComponent implements OnInit {
   ) { }
 
   async ngOnInit() {
-    this.OktaWidgetService.login();
+     this.OktaWidgetService.login();
   }
 
 }
